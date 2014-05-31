@@ -1,5 +1,6 @@
 package com.commonsware.empublite;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.actionbarsherlock.app.SherlockActivity;
@@ -27,8 +28,12 @@ public class EmPubLiteActivity extends SherlockActivity {
 		case android.R.id.home:
 			return true;
 		case R.id.about:
+			Intent i=new Intent(this, SimpleContentActivity.class);
+			startActivity(i);
 			return true;
 		case R.id.help:
+			i=new Intent(this, SimpleContentActivity.class);
+			startActivity(i);
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
