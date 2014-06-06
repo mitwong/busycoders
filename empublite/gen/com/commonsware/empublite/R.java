@@ -905,7 +905,7 @@ containing a value of this type.
         public static final int ic_launcher=0x7f020070;
     }
     public static final class id {
-        public static final int about=0x7f040034;
+        public static final int about=0x7f040035;
         public static final int abs__action_bar=0x7f040020;
         public static final int abs__action_bar_container=0x7f04001f;
         public static final int abs__action_bar_subtitle=0x7f040011;
@@ -947,10 +947,11 @@ containing a value of this type.
         public static final int abs__up=0x7f04000b;
         public static final int disableHome=0x7f040009;
         public static final int edit_query=0x7f040026;
-        public static final int help=0x7f040033;
+        public static final int help=0x7f040034;
         public static final int homeAsUp=0x7f040006;
         public static final int listMode=0x7f040002;
         public static final int normal=0x7f040001;
+        public static final int pager=0x7f040033;
         public static final int progressBar1=0x7f040032;
         public static final int showCustom=0x7f040008;
         public static final int showHome=0x7f040005;
